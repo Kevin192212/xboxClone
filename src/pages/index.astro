@@ -3,83 +3,146 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<div class="container">
-		<div class="wrapper">
-			<div class="box img1">img1</div>
-			<div class="box img2">img2</div>
-			<div class="box img3">img3</div>
-			<div class="box img4">img4</div>
-			<div class="box img5">img5</div>
-			<div class="box img6">img6</div>
-			<div class="box img7">img7</div>
-			<div class="box img8">img8</div>
-			<div class="box img9">img9</div>
-			<div class="box img10">img10</div>
-		</div>
-	</div>
-</Layout>
+<Layout title="Welcome to Ocaña.">
+  <div class="wrapper">
+	<div class="box img1 "></div>
+	<div class="box img2">DESCUBRE TU</div>
+	<div class="box img3"></div>
+	<div class="box img4"></div>
+	<div class="box img5"></div>
+	<div class="box img6"></div>
+	<div class="box img7"></div>
+	<div class="box img8"></div>
+	<div class="box img9"></div>
+	<div class="box img10"></div>
+  </div>
 
-<style>
-	.wrapper {
-		display: grid;
-		grid-template-rows: 120px 120px 120px 120px;
-		grid-template-areas: 
-			"img1 img1 img2 img3"
-			"img1 img1 img6 img6"
-			"img4 img5 img6 img6"
-			"img7 img8 img9 img10"
-		;
-	}
-
-	.box {
-		display: flex;
-		font-family: verdana;
-		align-items: center;
-		justify-content: center;
-		font-weight: bold;
-		color: white;
-	}
-
-	.img1 {
-		grid-area: img1;
-		background-color: orange;
-	}
-	.img2 {
-		grid-area: img2;
-		background-color: green;
-	}
-	.img3 {
-		grid-area: img3;
-		background-color: rgb(255, 38, 0);
-	}
-	.img4 {
-		grid-area: img4;
-		background-color: rgb(25, 0, 255);
-	}
-	.img5 {
-		grid-area: img5;
-		background-color: rgb(255, 0, 255);
-	}
-	.img6 {
-		grid-area: img6;
-		background-color: rgb(0, 255, 0);
-	}
-	.img7 {
-		grid-area: img7;
-		background-color: rgb(0, 238, 255);
-	}
-	.img8 {
-		grid-area: img8;
-		background-color: rgb(208, 255, 0);
-	}
-	.img9 {
-		grid-area: img9;
-		background-color: rgb(132, 0, 255);
-	}
-	.img10 {
-		grid-area: img10;
-		background-color: rgb(0, 255, 179);
-	}
 	
+</Layout>
+  
+ 
+<style>
+	.wrapper{
+		display: grid;
+		grid-template-rows: 30rem 30rem 30rem 30rem;
+		grid-template-areas: 
+		"img1 img1 img2 img3"
+		"img1 img1 img6 img6"
+		"img4 img5 img6 img6"
+		"img7 img8 img9 img10"
+		;
+       
+
+
+}
+    .box {
+   display:flex;
+   font-family: verdana;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   color: white;
+
+	}
+
+ .img1{
+grid-area: img1;
+background-image: url(https://assets.xboxservices.com/assets/7c/b2/7cb25873-2a92-47db-998c-cbeebe79b509.jpg?n=Dragons-Dogma-II_Large-tout-0_1083x1222.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-color: aliceblue;
+margin: 3px;
+
+
+ }
+
+ .img2{
+grid-area: img2;
+background-color: #107C10;
+background-size: cover;
+background-position: center;
+margin-top: 3px;
+ }
+
+ .img3{
+grid-area: ;
+background-image: url(https://assets.xboxservices.com/assets/e0/33/e0330338-5ef6-446e-9f9c-185dee575f6f.jpg?n=XGP-2023_Small-tout-1084_09-18-23_475x534.jpg);
+background-size: cover;
+background-position: center;
+margin-top: 3px;
+margin-right: 3px;
+ }
+ .img4{
+grid-area: img4;
+background-image: url(https://assets.xboxservices.com/assets/47/04/4704bd8f-cbf6-4408-9af5-a5b10d8f8c57.jpg?n=Fallout-76_Small-tout-1084_Atlantic-City-Pt2_475x534.jpg);
+background-size: cover;
+background-position: center;
+margin-left: 3px;
+margin-bottom: 3px;
+ }
+
+ .img5{
+grid-area: img5;
+background-color: #107C10;
+background-size: cover;
+background-position: center;
+margin-right: 3px;
+margin-bottom: 3px;
+ }
+ .img6{
+grid-area: img6;
+background-image: url(https://assets.xboxservices.com/assets/76/4f/764f6f3a-7112-4221-9a09-dc9dfe33961c.jpg?n=284993_Large-tout-0_1083x1222.jpg);
+background-size: cover;
+background-position: center;
+margin-top: 3px;
+margin-right: 3px;
+
+ }
+
+ .img7{
+grid-area: img7;
+background-color: #107C10;
+background-size: cover;
+background-position: center;
+margin: 3px;
+margin-top: 0px;
+margin-right: 0px;
+
+ }
+
+ .img8{
+grid-area: img8;
+background-image: url(https://assets.xboxservices.com/assets/ed/c8/edc87057-92d4-43d2-9816-41368f7721b1.jpg?n=Halo-Infinite_Small-tout-1084_The-Yappening-2_475x534.jpg);
+background-size: cover;
+background-position: center;
+margin-bottom: 3px;
+margin-right: 3px;
+ }
+
+ .img9{
+grid-area: img9;
+background-color: #107C10;
+background-size: cover;
+background-position: center;
+margin-top: 3px;
+margin-bottom: 3px;
+ }
+
+ .img10{
+grid-area: img10;
+background-image: url(https://assets.xboxservices.com/assets/f5/f6/f5f6724a-2ac5-4f47-863c-e646a1c449fa.jpg?n=2398742_Small-tout-1084_475x534.jpg);
+background-size: cover;
+background-position: center;
+margin-top: 3px;
+margin-bottom: 3px;
+margin-right: 3px;
+ }
+
+
+
+
+
+
+
 </style>
